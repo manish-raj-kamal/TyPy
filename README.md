@@ -11,9 +11,9 @@ TyPy is a smart, low-level auto-typing utility built in Python. It simulates rea
 
 ## Screenshots
 
-![TyPy UI 1](https://github.com/user-attachments/assets/e529c474-9f88-4af2-9065-a8d6d220e67e)
+<img src="https://github.com/user-attachments/assets/e529c474-9f88-4af2-9065-a8d6d220e67e" width="60%" alt="TyPy UI 1">
 
-![TyPy UI 2](https://github.com/user-attachments/assets/a86ba888-920b-4947-b649-517ebb46ec46)
+<img src="https://github.com/user-attachments/assets/a86ba888-920b-4947-b649-517ebb46ec46" width="60%" alt="TyPy UI 2">
 
 ## Installation & Dependencies
 
