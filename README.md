@@ -9,6 +9,12 @@ TyPy is a smart, low-level auto-typing utility built in Python. It simulates rea
 - **Smart Formatting**: Defeats IDE auto-indentation bugs by selectively clearing lines.
 - **System Tray**: Minimizes cleanly out of your way.
 
+## Screenshots
+
+![TyPy UI 1](https://github.com/user-attachments/assets/e529c474-9f88-4af2-9065-a8d6d220e67e)
+
+![TyPy UI 2](https://github.com/user-attachments/assets/a86ba888-920b-4947-b649-517ebb46ec46)
+
 ## Installation & Dependencies
 
 To run or build the source code yourself, you will need Python 3.x installed. Then, install the required dependencies:
