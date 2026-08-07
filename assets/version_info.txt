@@ -18,7 +18,7 @@ VSVersionInfo(
         StringStruct('FileDescription', 'Smart Auto-Typing Utility by Manish Raj Kamal'),
         StringStruct('FileVersion', '1.0.0.0'),
         StringStruct('InternalName', 'TyPy'),
-        StringStruct('LegalCopyright', '\xa9 2026 M18 Labs. Created by Manish Raj Kamal.'),
+        StringStruct('LegalCopyright', '\xa9 2026 M18 Labs. All rights reserved.'),
         StringStruct('OriginalFilename', 'TyPy.exe'),
         StringStruct('ProductName', 'TyPy'),
         StringStruct('ProductVersion', '1.0.0.0'),
