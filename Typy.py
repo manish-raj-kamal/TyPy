@@ -181,7 +181,7 @@ class TypyApp:
         
         # Try to load our cool custom logo. If it fails, no big deal, we just catch the exception and move on.
         try:
-            icon_img = tk.PhotoImage(file=resource_path("Typy Logo.png"))
+            icon_img = tk.PhotoImage(file=resource_path("assets/Typy Logo.png"))
             self.root.iconphoto(True, icon_img)
         except Exception:
             pass
@@ -570,7 +570,7 @@ class TypyApp:
         # Grabs our custom app logo for the system tray! 
         # If it can't find it, it draws a blue box with yellow text instead.
         try:
-            image = Image.open(resource_path("Typy Logo.png"))
+            image = Image.open(resource_path("assets/Typy Logo.png"))
         except Exception:
             image = Image.new('RGB', (64, 64), color=(73, 109, 137))
             d = ImageDraw.Draw(image)
