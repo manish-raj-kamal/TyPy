@@ -33,10 +33,12 @@ python Typy.py
 
 ## Building the Executable (.exe)
 
-To package the application into a single, portable Windows executable, run the following PyInstaller command. This will bundle the UI theme, system tray components, and embed your custom multi-resolution logo.
+To package the application into a single, portable Windows executable, run the following PyInstaller command. This will bundle the UI theme, system tray components, and embed your custom multi-resolution logo. 
+
+*(Note: We use `python -m PyInstaller` instead of just `pyinstaller` to prevent common "command not found" errors on Windows if your environment path isn't perfectly configured!)*
 
 ```bash
-pyinstaller --clean --onefile --noconsole --collect-all sv_ttk --hidden-import pystray --hidden-import PIL --icon="assets/Typy Logo.ico" --add-data="assets/Typy Logo.png;assets" --version-file="assets/version_info.txt" Typy.py
+python -m PyInstaller --clean --onefile --noconsole --collect-all sv_ttk --hidden-import pystray --hidden-import PIL --icon="assets/Typy Logo.ico" --add-data="assets/Typy Logo.png;assets" --version-file="assets/version_info.txt" Typy.py
 ```
 
 Once the build finishes, you'll find your brand new `Typy.exe` ready to use inside the `dist` folder!
