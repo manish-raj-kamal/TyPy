@@ -1,6 +1,6 @@
-# TyPy
+# TyPy (Portable Auto-Typer)
 
-TyPy is a smart, low-level auto-typing utility built in Python. It simulates real keystrokes using the native Windows API, allowing you to bypass typical copy-paste blocks. It features a modern dark/light mode UI, global hotkeys, and seamless system tray minimization.
+TyPy is a smart, low-level, **fully portable** auto-typing utility built in Python. Because it is a portable `.exe`, **no installation is required**—simply download it and run! It simulates real keystrokes using the native Windows API, allowing you to bypass typical copy-paste blocks. It features a modern dark/light mode UI, global hotkeys, and seamless system tray minimization.
 
 ## Features
 - **Low-Level Simulation**: Directly uses Windows `SendInput` to type characters just like a real keyboard.
