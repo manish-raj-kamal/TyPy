@@ -2,6 +2,11 @@
 
 TyPy is a smart, low-level, **fully portable** auto-typing utility built in Python. Because it is a portable `.exe`, **no installation is required**—simply download it and run! It simulates real keystrokes using the native Windows API, allowing you to bypass typical copy-paste blocks. It features a modern dark/light mode UI, global hotkeys, and seamless system tray minimization.
 
+---
+### 🚀 [CLICK HERE TO DOWNLOAD THE LATEST RELEASE (.exe)](https://github.com/manish-raj-kamal/TyPy/releases)
+*(No installation required! Just download the file from the "Assets" section and run it.)*
+---
+
 ## Features
 - **Low-Level Simulation**: Directly uses Windows `SendInput` to type characters just like a real keyboard.
 - **Global Hotkeys**: Control typing even when the app is minimized (`Alt+V`, `Alt+B`, `Alt+N`, `Alt+C`).
