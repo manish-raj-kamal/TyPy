@@ -1,0 +1,36 @@
+# TyPy
+
+TyPy is a smart, low-level auto-typing utility built in Python. It simulates real keystrokes using the native Windows API, allowing you to bypass typical copy-paste blocks. It features a modern dark/light mode UI, global hotkeys, and seamless system tray minimization.
+
+## Features
+- **Low-Level Simulation**: Directly uses Windows `SendInput` to type characters just like a real keyboard.
+- **Global Hotkeys**: Control typing even when the app is minimized (`Alt+V`, `Alt+B`, `Alt+N`, `Alt+C`).
+- **Human-like Typing**: Supports randomizing keystroke delays to look natural.
+- **Smart Formatting**: Defeats IDE auto-indentation bugs by selectively clearing lines.
+- **System Tray**: Minimizes cleanly out of your way.
+
+## Installation & Dependencies
+
+To run or build the source code yourself, you will need Python 3.x installed. Then, install the required dependencies:
+
+```bash
+pip install Pillow pystray sv-ttk pyinstaller
+```
+
+## Running from Source
+
+You can run the app directly via Python using:
+
+```bash
+python Typy.py
+```
+
+## Building the Executable (.exe)
+
+To package the application into a single, portable Windows executable, run the following PyInstaller command. This will bundle the UI theme, system tray components, and embed your custom multi-resolution logo.
+
+```bash
+pyinstaller --clean --onefile --noconsole --collect-all sv_ttk --hidden-import pystray --hidden-import PIL --icon="Typy Logo.ico" --add-data="Typy Logo.png;." Typy.py
+```
+
+Once the build finishes, you'll find your brand new `Typy.exe` ready to use inside the `dist` folder!

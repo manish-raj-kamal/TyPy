@@ -1,0 +1,29 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        '040904B0',
+        [StringStruct('CompanyName', 'M18 Labs'),
+        StringStruct('FileDescription', 'Smart Auto-Typing Utility'),
+        StringStruct('FileVersion', '1.0.0.0'),
+        StringStruct('InternalName', 'TyPy'),
+        StringStruct('LegalCopyright', '\xa9 2026 M18 Labs. All rights reserved.'),
+        StringStruct('OriginalFilename', 'TyPy.exe'),
+        StringStruct('ProductName', 'TyPy'),
+        StringStruct('ProductVersion', '1.0.0.0'),
+        StringStruct('Author', 'Manish Raj Kamal')])
+      ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
