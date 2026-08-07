@@ -176,8 +176,7 @@ class TypyApp:
     def __init__(self, root):
         self.root = root
         self.root.title("TyPy")
-        self.root.geometry("800x600")
-        self.root.state('zoomed')
+        self.root.geometry("350x350")
         self.root.resizable(True, True)
         
         # Try to load our cool custom logo. If it fails, no big deal, we just catch the exception and move on.
