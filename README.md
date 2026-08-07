@@ -34,3 +34,12 @@ pyinstaller --clean --onefile --noconsole --collect-all sv_ttk --hidden-import p
 ```
 
 Once the build finishes, you'll find your brand new `Typy.exe` ready to use inside the `dist` folder!
+
+## Keywords & Search Tags
+If you're looking for an **AutoTyper for Python**, you've found it! This repository is highly relevant for anyone searching for:
+* AutoTyper for python
+* Python auto typer script
+* Windows human-like typing bot
+* Copy paste block bypass tool
+* SendInput keystroke simulator
+* Auto typing utility
