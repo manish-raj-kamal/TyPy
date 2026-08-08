@@ -11,6 +11,6 @@ Currently, only the latest release of TyPy is actively supported with security u
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within TyPy, please send an e-mail to Manish Raj Kamal at **manish.12324128@lpu.in**. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within TyPy, please send an e-mail to Manish Raj Kamal at **viom773929@gmail.com**. All security vulnerabilities will be promptly addressed.
 
 Please do **not** report security vulnerabilities via public GitHub issues to prevent early exploitation.
