@@ -1,26 +1,43 @@
-# TyPy (Portable Auto-Typer)
+<div align="center">
+  <img src="assets/Typy Logo.png" width="128" alt="TyPy Logo">
+  <h1>TyPy (Portable Auto-Typer)</h1>
+  <p><b>A smart, low-level, fully portable auto-typing utility built in Python.</b></p>
+</div>
 
-TyPy is a smart, low-level, **fully portable** auto-typing utility built in Python. Because it is a portable `.exe`, **no installation is required**—simply download it and run! It simulates real keystrokes using the native Windows API, allowing you to bypass typical copy-paste blocks. It features a modern dark/light mode UI, global hotkeys, and seamless system tray minimization.
+Because it is a portable `.exe`, **no installation is required**—simply download it and run! It simulates real keystrokes using the native Windows API, allowing you to bypass typical copy-paste blocks. It features a modern dark/light mode UI, global hotkeys, and seamless system tray minimization.
 
 ---
-### 🚀 [CLICK HERE TO DOWNLOAD THE LATEST RELEASE (.exe)](https://github.com/manish-raj-kamal/TyPy/releases)
-*(No installation required! Just download the file from the "Assets" section and run it.)*
+<div align="center">
+  <h3>🚀 <a href="https://github.com/manish-raj-kamal/TyPy/releases">CLICK HERE TO DOWNLOAD THE LATEST RELEASE (.exe)</a></h3>
+  <i>(No installation required! Just download the file from the "Assets" section and run it.)</i>
+</div>
+
 ---
 
-## Features
+<details>
+<summary><h2>✨ Features</h2></summary>
+
 - **Low-Level Simulation**: Directly uses Windows `SendInput` to type characters just like a real keyboard.
 - **Global Hotkeys**: Control typing even when the app is minimized (`Alt+V`, `Alt+B`, `Alt+N`, `Alt+C`).
 - **Human-like Typing**: Supports randomizing keystroke delays to look natural.
 - **Smart Formatting**: Defeats IDE auto-indentation bugs by selectively clearing lines.
 - **System Tray**: Minimizes cleanly out of your way.
 
-## Screenshots
+</details>
 
+<details>
+<summary><h2>📸 Screenshots</h2></summary>
+
+<br>
 <img src="https://github.com/user-attachments/assets/e529c474-9f88-4af2-9065-a8d6d220e67e" width="60%" alt="TyPy UI 1">
-
+<br><br>
 <img src="https://github.com/user-attachments/assets/a86ba888-920b-4947-b649-517ebb46ec46" width="60%" alt="TyPy UI 2">
+<br>
 
-## Developer Setup & Building From Source
+</details>
+
+<details>
+<summary><h2>🛠️ Developer Setup & Building From Source</h2></summary>
 
 If you want to clone this repository, run the code yourself, or build your own `.exe`, follow these exact steps to avoid environment issues.
 
@@ -72,7 +89,11 @@ python -m PyInstaller --clean --onefile --noconsole --collect-all sv_ttk --hidde
 
 Once the build finishes, you will find your freshly compiled `TyPy.exe` waiting inside the newly generated `dist` folder!
 
-## Keywords & Search Tags
+</details>
+
+<details>
+<summary><h2>🔍 Keywords & Search Tags</h2></summary>
+
 If you're looking for an **AutoTyper for Python**, you've found it! This repository is highly relevant for anyone searching for:
 * AutoTyper for python
 * Python auto typer script
@@ -80,3 +101,5 @@ If you're looking for an **AutoTyper for Python**, you've found it! This reposit
 * Copy paste block bypass tool
 * SendInput keystroke simulator
 * Auto typing utility
+
+</details>
